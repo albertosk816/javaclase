@@ -1,4 +1,4 @@
-package ejercicioClase;
+package While;
 
 import javax.swing.JOptionPane;
 
