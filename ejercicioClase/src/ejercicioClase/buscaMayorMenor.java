@@ -40,7 +40,8 @@ public class buscaMayorMenor {
 		JOptionPane.showMessageDialog(null,"El numero mayor de los introducidos es: " + numMayor);
 		JOptionPane.showMessageDialog(null,"El numero menor de los introducidos es: " + numMenor);
 		
-
+		
+		
 	}
 
 }
