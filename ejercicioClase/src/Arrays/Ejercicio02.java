@@ -26,7 +26,7 @@ public class Ejercicio02 {
 			if(valorBuscado == num[i]) {
 				System.out.println("El indice del valor introducido es: " + i + " y el valor introducido es " + valorBuscado);
 			}else {
-				if(){
+				//if(){
 			}
 				System.out.println("-1");
 			}
