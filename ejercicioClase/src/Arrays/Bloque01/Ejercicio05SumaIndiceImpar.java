@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Bloque01;
 
 public class Ejercicio05SumaIndiceImpar {
 

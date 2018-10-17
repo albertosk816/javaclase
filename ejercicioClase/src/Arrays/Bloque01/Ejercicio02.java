@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Bloque01;
 
 import javax.swing.JOptionPane;
 
