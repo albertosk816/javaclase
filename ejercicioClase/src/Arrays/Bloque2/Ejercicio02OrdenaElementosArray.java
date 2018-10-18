@@ -14,28 +14,32 @@ public class Ejercicio02OrdenaElementosArray {
 		int array2[] = new int [150];
 		int array3[] = new int[150];
 		int i = 0, j = 0;
-		
+		int j2 = 0;
 
 				
 		
 		for (i = 0; i < array1.length; i++) {
 			array1[i] = (int) Math.round(Math.random()*100);
+			if(i % 2 != 0) {
+				array3[i] = array1[i];
+				System.out.println(array1[i] + " Array 1 ");
+			}
 		}
 		
 		for (j = 0; j < array2.length; j++) {
 			array2[j] = (int) Math.round(Math.random()*100);
-		}
-		
-		if(i % 2 != 0) {
-			array3[i] = array1[i];
-		}else 
 			if(j % 2 == 0){
-		      array3[j] = array2[j];
+			      array3[j] = array2[j];
+			      System.out.println(array2[j] + " Array 2 ");
+			}
 		}
-	
-		for (int j2 = 0; j2 < array3.length; j2++) {
+			
+		for (j2 = 0; j2 < array3.length; j2++) {
+						
 			System.out.println(array3[j2]);
 		}
+		
+
 
 	}
 
