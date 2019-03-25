@@ -15,7 +15,7 @@ public class EjercicioMilNumeros {
 		for ( i = 0; i < 999; i++) {
 			//numAleatorio = (int) (Math.random()*100);
 			
-			num[i]
+		//	num[i];
 
 			//suma += numAleatorio;
 			

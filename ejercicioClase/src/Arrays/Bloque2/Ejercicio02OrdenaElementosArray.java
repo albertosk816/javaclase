@@ -22,7 +22,7 @@ public class Ejercicio02OrdenaElementosArray {
 			array1[i] = (int) Math.round(Math.random()*100);
 			if(i % 2 != 0) {
 				array3[i] = array1[i];
-				System.out.println(array1[i] + " Array 1 ");
+				System.out.print(array1[i]);
 			}
 		}
 		
@@ -30,13 +30,13 @@ public class Ejercicio02OrdenaElementosArray {
 			array2[j] = (int) Math.round(Math.random()*100);
 			if(j % 2 == 0){
 			      array3[j] = array2[j];
-			      System.out.println(array2[j] + " Array 2 ");
+			      System.out.print("\n" + array2[j]);
 			}
 		}
 			
 		for (j2 = 0; j2 < array3.length; j2++) {
 						
-			System.out.println(array3[j2]);
+			System.out.print("\n" + array3[j2]);
 		}
 		
 
